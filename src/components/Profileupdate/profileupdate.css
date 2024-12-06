@@ -1,0 +1,17 @@
+.profile{
+	min-height: 100vh;
+	background-color: coral;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-container{
+	background:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-width: 700px;
+	border-radius: 10px;
+}

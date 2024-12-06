@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-image:url("https://st2.depositphotos.com/15113232/47276/i/450/depositphotos_472767468-stock-photo-dry-flower-branch-light-brown.jpg");
+  display:flex;
+  align-items:center;
+justify-content: center;
+height:100vh;
+color:white;
+overflow: hidden;
+}
+.container{
+  width:85vw;
+  height:95vh;
+ 
+  background-color: rgba(160, 99, 55, 0.293);
+ 
+  backdrop-filter:blur(19px) saturate(180%);
+  border:1px solid rgb(82, 42, 12);
+   border-radius: 8px;
+   display:flex;
+}
+
+.loading{
+  padding:45px;
+  font-size:30px;
+  border-radius:10px;
+  background-color:rgba(101, 56, 24, 0.778);;
+}
